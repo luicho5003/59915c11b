@@ -1,0 +1,45 @@
+#contenedor{
+    height: 700px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+/* Dispositivos pequeños */
+
+@media screen and (max-width:600px){
+    #contenedor{
+        background-color: rgb(58, 180, 180);
+    }
+
+    h1{
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    /* pantallas medias */
+}
+@media screen and (min-width: 600px){
+    #contenedor{
+        background-color: rgb(9, 126, 28);
+       } 
+      
+   h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+   }
+}
+
+/* escritorio y mayores */
+@media screen and (min-width: 992px){
+    #contenedor{
+       background-color: rgb(119, 119, 16);
+       } 
+      
+   h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 90px;
+   }
+    
+}
